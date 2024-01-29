@@ -269,7 +269,7 @@ ul{
         position: absolute;
         top: 80px;
         right: 0;
-        background-color: #ce6f15e3;
+        background-color: #000000e0;
         width: 40%;
         /* height: 100vh; */
     }
@@ -277,5 +277,8 @@ ul{
         display: block;
         /* text-align: center; */
         margin: 15px 30px 15px 0px;
+    }
+    nav ul li a{
+        color: white;
     }
 }
