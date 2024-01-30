@@ -282,6 +282,12 @@ ul{
     }
 }
 @media (max-width : 600px){
+    .nav-bar{
+        padding: 30px 0px;
+    }
+    .container{
+        padding: 0 10px 50px;
+    }
     .row{
         text-align: center;
     }
