@@ -81,10 +81,10 @@ h1{
 }
 .col-3{
     flex-basis: 30%;
-    min-width: 480px;
+    min-width: 340px;
     margin-bottom: 30px;
 }
-.col-3 {
+.col-3 img{
     width: 100%;
 }
 .small-container{
@@ -270,15 +270,22 @@ ul{
         top: 80px;
         right: 0;
         background-color: #000000e0;
+        border-radius: 10px 0px 0px 10px;
         width: 40%;
-        /* height: 100vh; */
     }
     nav ul li{
         display: block;
-        /* text-align: center; */
         margin: 15px 30px 15px 0px;
     }
     nav ul li a{
         color: white;
+    }
+}
+@media (max-width : 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
     }
 }

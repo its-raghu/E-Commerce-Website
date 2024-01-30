@@ -15,7 +15,7 @@
                     <img src="./assets/flipkart.svg" alt="Kart logo" width="135px">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="menu-bar">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Help</a></li>
@@ -24,7 +24,7 @@
                     </ul>
                 </nav>
                 <img src="./assets/cart-svgrepo-com.svg" height="25px" width="25px">
-                <img class="menu-png" src="./assets/Local images/menu.png">
+                <img class="menu-png" src="./assets/Local images/menu.png" onclick="myFunction()">
             </div>
             <div class="row">
                 <div class="col-2">
@@ -350,5 +350,15 @@
         </div>
     </div>
 
+    <script>
+        function myFunction() {
+        var x = document.getElementById("menu-bar");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+}
+    </script>
 </body>
 </html>
