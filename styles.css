@@ -258,6 +258,36 @@ ul{
     margin-left: 25px;
     display: none;
 }
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 3px solid tomato;
+    border-radius: 5px;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+    background-color: rgb(236, 238, 228);
+}
+.page-btn{
+    margin: 0px auto 70px;
+}
+.page-btn span{
+    border: 1px tomato solid;
+    display: inline-block;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background-color: tomato;
+    color: white;
+}
 
 /*       mediaquery     */
 

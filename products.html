@@ -4,64 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Net-Kart</title>
-    <link rel="shortcut icon" href="./assets/Local images/flipkart-logo-39904.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="nav-bar">
-                <div class="logo">
-                    <img src="./assets/flipkart.svg" alt="Kart logo" width="135px">
-                </div>
-                <nav>
-                    <ul id="menu-bar">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Account</a></li>
-                    </ul>
-                </nav>
-                <img src="./assets/cart-svgrepo-com.svg" height="25px" width="25px">
-                <img class="menu-png" src="./assets/Local images/menu.png" onclick="myFunction()">
+    
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="./assets/flipkart.svg" alt="Kart logo" width="135px">
             </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>People will stare. <br> Make it worth their while.</h1>
-                    <p>Style is something each of us already has, all we need to do is find it.</p>
-                    <a href="./products.html" class="btn">Explore Now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="./assets/men img.png"> 
-                </div>
-            </div>
+            <nav>
+                <ul id="menu-bar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </nav>
+            <img src="./assets/cart-svgrepo-com.svg" height="25px" width="25px">
+            <img class="menu-png" src="./assets/Local images/menu.png" onclick="myFunction()">
         </div>
     </div>
-
-    <!-- Catagories -->
-
-    <div class="catagories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="./assets/Local images/catagory-1.avif">
-                </div>
-                <div class="col-3">
-                    <img src="./assets/Local images/catagory-2.avif">
-                </div>
-                <div class="col-3">
-                    <img src="./assets/Local images/catagory-3.avif">
-                </div>
-            </div>
-        </div>   
-    </div>
-
-    <!--- Products --->
     
     <div class="small-container">
-        <h2 class="product-title">Featured Products</h2>
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+                <option>Sort by Popularity</option>
+                <option>Sort by Rating</option>
+                <option>Sort by Sale</option>
+            </select>
+        </div>
         <div class="row">
             <div class="col-4">
                 <img src="./assets/Local images/product-1.webp" height="295px">
@@ -112,10 +89,6 @@
                 <p>₹1299</p>
             </div>
         </div>
-
-        <!-----Latest Products----->
-
-        <h2 class="product-title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
                 <img src="./assets/Local images/product-5.webp" height="295px">
@@ -215,98 +188,14 @@
                 </div>
                 <p>₹1299</p>
             </div>
-        </div>
-    </div>
-   
-    <!-----Exclusive Product----->
-
-    <div class="exclusive">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img class="offer-img" src="./assets/Local images/exclusive.png"> 
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available in our Store</p>
-                    <h1>Apple Watch Ultra 2</h1>
-                    <small>Tested to MIL-STD 810H: altitude, high temperature, low temperature, temperature shock,
-                        immersion, freeze with thaw, ice and freezing rain, and shock and vibration</small>
-                    <a href="#" class="btn">Shop Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!------ Testimonials ------->
-
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt laborum magni magnam, excepturi vero tempora repellat voluptates et laboriosam perferendis, ut veritatis iure quam, officiis doloremque! Quia ducimus reiciendis nobis.</p>
-                    <div class="rating">
-                        <i class="fa fa-star checked"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <img src="./assets/Local images/test-1.jpg">
-                    <h3>Paul Mike</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt laborum magni magnam, excepturi vero tempora repellat voluptates et laboriosam perferendis, ut veritatis iure quam, officiis doloremque! Quia ducimus reiciendis nobis.</p>
-                    <div class="rating">
-                        <i class="fa fa-star checked"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i> 
-                    </div>
-                    <img src="./assets/Local images/test-2.jpeg">
-                    <h3>Xavier</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt laborum magni magnam, excepturi vero tempora repellat voluptates et laboriosam perferendis, ut veritatis iure quam, officiis doloremque! Quia ducimus reiciendis nobis.</p>
-                    <div class="rating">
-                        <i class="fa fa-star checked"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>                       
-                    </div>
-                    <img src="./assets/Local images/test-3.jpg">
-                    <h3>Joe Murf</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!---------Brands---------->
-
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="./assets/Local images/logo-coca-cola.png">
-                </div>
-                <div class="col-5">
-                    <img src="./assets/Local images/logo-godrej.png">
-                </div>
-                <div class="col-5">
-                    <img src="./assets/Local images/logo-oppo.png">
-                </div>
-                <div class="col-5">
-                    <img src="./assets/Local images/logo-paypal.png">
-                </div>
-                <div class="col-5">
-                    <img src="./assets/Local images/logo-philips.png">
-                </div>
-            </div>
-        </div>
+        </div> 
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>  
     </div>
 
         <!-------Foooter------->
