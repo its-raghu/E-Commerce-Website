@@ -43,7 +43,7 @@ nav ul li a{
 }
 .col-2{
     flex-basis: 50%;
-    min-width: 350px;
+    min-width: 300px;
 }
 .col-2 img{
     max-width: 100%;
@@ -381,5 +381,15 @@ input:focus{
     }
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0px;
+    }
+    .single-product h1{
+        font-size: 30px;
+        line-height: 37px;
     }
 }
