@@ -33,7 +33,7 @@ nav ul li a{
 .container{
     max-width: 1500px;
     margin: auto;
-    padding: 0 25px 50px;
+    padding: 0 25px 25px;
 }
 .row{
     display: flex;
@@ -43,7 +43,7 @@ nav ul li a{
 }
 .col-2{
     flex-basis: 50%;
-    min-width: 300px;
+    min-width: 350px;
 }
 .col-2 img{
     max-width: 100%;
@@ -74,7 +74,7 @@ h1{
     background: radial-gradient(white,rgb(255, 241, 214));
 }
 .header .row{
-    margin: 8.5%;
+    margin: 4%;
 }
 .catagories{
     margin: 80px 0;
@@ -263,13 +263,12 @@ ul{
     margin: 100px auto 50px;
 }
 select{
-    border: 3px solid tomato;
+    border: 2px solid tomato;
     border-radius: 5px;
     padding: 5px;
 }
 select:focus{
     outline: none;
-    background-color: rgb(236, 238, 228);
 }
 .page-btn{
     margin: 0px auto 70px;
@@ -288,6 +287,63 @@ select:focus{
     background-color: tomato;
     color: white;
 }
+/*      SingleProduct     */
+.single-product{
+    margin-top: 50px;
+}
+.single-product img{
+    padding: 0px;
+}
+.single-product .col-2{
+    padding: 30px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: #555;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    margin-right: 25px;
+    font-size: 20px;
+    border: 2px solid tomato;
+    border-radius: 3px;
+}
+input:focus{
+    outline: none;
+}
+.single-product .fa{
+    margin-left: 10px;
+    color: tomato;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img{
+    flex-basis: 24%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*       mediaquery     */
 
