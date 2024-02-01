@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net-Kart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="./assets/flipkart.svg" alt="Kart logo" width="135px">
+            </div>
+            <nav>
+                <ul id="menu-bar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./assets/cart-svgrepo-com.svg" height="25px" width="25px"></a>
+            <img class="menu-png" src="./assets/Local images/menu.png" onclick="myFunction()">
+        </div>
+    </div>
+
+    <!--------Cart-Menu-------->
+
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-details">
+                        <img src="./assets/Local images/product-1.webp">
+                        <div>
+                            <p>Carbonn-Jean Cloth</p>
+                            <small>₹1299</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹1299</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-details">
+                        <img src="./assets/Local images/product-2.webp">
+                        <div>
+                            <p>Leotude</p>
+                            <small>₹1299</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹1299</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-details">
+                        <img src="./assets/Local images/product-8.webp">
+                        <div>
+                            <p>Lee Cooper Fit Jeans</p>
+                            <small>₹1299</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹1299</td>
+            </tr>
+        </table> 
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>₹3,897.0</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>₹53.0</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>₹3,950.0</td>
+                </tr>
+            </table>
+        </div>   
+    </div>
+    
+
+
+
+    <!-------Foooter------->
+
+    <div class="footer">
+        <div class="small-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS Mobile Phones.</p>
+                    <div class="app-logo">
+                        <img src="./assets/Local images/play-store.png">
+                        <img src="./assets/Local images/app-store.png">
+                    </div>
+                    
+                </div>
+                <div class="footer-col-2">
+                    <img src="./assets/flipkart.svg" width="90px">
+                    <p>Our purpose is To Sustainably Make the Pleasure and Benefits Of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - its-raghav</p>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("menu-bar");
+        if (x.style.maxHeight === "0px") {
+            x.style.maxHeight = "100%";
+        } else {
+            x.style.maxHeight = "0px";
+        }
+    }
+    </script>
+</body>
+</html>

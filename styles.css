@@ -287,7 +287,9 @@ select:focus{
     background-color: tomato;
     color: white;
 }
+
 /*      SingleProduct     */
+
 .single-product{
     margin-top: 50px;
 }
@@ -332,13 +334,57 @@ input:focus{
     flex-basis: 24%;
 }
 
+/* --------Cart-Page--------- */
 
-
-
-
-
-
-
+.cart-page{
+    margin: 60px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.product-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 7px;
+    background-color: rgb(83, 149, 248);
+    color: white;
+    font-weight: normal;
+}
+td{
+    padding: 5px;
+}
+td input{
+    padding: 5px;
+    width: 50px;
+    height: 40px;
+}
+td a{
+    color: red;
+    text-decoration: none;
+}
+td img{
+    width: 90px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid tomato;
+    width: 100%;
+    max-width: 575px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
 
 
 
@@ -391,5 +437,8 @@ input:focus{
     .single-product h1{
         font-size: 30px;
         line-height: 37px;
+    }
+    .product-details p{
+        display: none;
     }
 }
