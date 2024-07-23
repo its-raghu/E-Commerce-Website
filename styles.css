@@ -184,6 +184,7 @@ small{
     color: #555;
 }
 
+
 /*        Brands         */
 
 .brands{
@@ -404,6 +405,7 @@ th:last-child{
         padding: 0 10px 50px;
     }
     nav ul{
+        /* display: none; */
         position: absolute;
         top: 80px;
         right: 0;
@@ -411,7 +413,7 @@ th:last-child{
         border-radius: 10px 0px 0px 10px;
         width: 40%;
         overflow: hidden;
-        transition: max-height 0.5s ease;
+        transition: 0.5s ease;
     }
     nav ul li{
         display: block;

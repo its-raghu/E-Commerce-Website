@@ -351,13 +351,16 @@
         </div>
     </div>
 
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <!-- <script src="index.js"></script> -->
+
     <script>
         function myFunction() {
-        var x = document.getElementById("menu-bar");
-        if (x.style.maxHeight === "0px") {
-            x.style.maxHeight = "100%";
-        } else {
-            x.style.maxHeight = "0px";
+        const sideBar = document.getElementById("menu-bar");
+        if(sideBar.style.display === "none"){
+            sideBar.style.display = "block"
+        }else{
+            sideBar.style.display = "none";
         }
 }
     </script>
